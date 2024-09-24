@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+.container {
+  background-image: url(../landing-page/images/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background: linear-gradient(100deg, #8b8b87, #888882);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 300px;
+}
+.logo {
+  width: 300px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+h1 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+p {
+  color: #4b4a4a;
+  margin-bottom: 12px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input[type="email"] {
+  padding: 0.5rem;
+  font-family: "poppins", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 0.5rem;
+  font-family: "poppins", sans-serif;
+  background-color: #8a2be2;
+  border: 1px solid #8a2be2;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #5707a2;
+}
